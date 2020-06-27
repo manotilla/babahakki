@@ -1,0 +1,7 @@
+- name: Remove Etcd TLS Files
+  script:
+    cmd: ./scripts/remove_certs.sh --tls-path {{root_etcd_path}}
+
+- name: Drop Etcd External Path
+  script:
+    cmd: ./scripts/drop_etcd_port.sh --ports {{etcd_port_1}} {{etcd_port_2}}
