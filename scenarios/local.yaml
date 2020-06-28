@@ -1,0 +1,7 @@
+---
+
+- hosts: local
+  vars_files:
+    - "roles/environments/variables.yaml"
+  roles:
+    - get_node_with_labels

@@ -1,8 +1,3 @@
-- name: CA Certificate Corruption on single Master
-  script:
-    cmd: ./scripts/ca_root_corruption.sh --tls-path {{}}
-
 - name: Drop ApiServer Static Pod
   script:
-    cmd: ./scripts/drop_apiserver_static_pod.sh --tls-path {{}}
-
+    cmd: ./scripts/drop_apiserver_static_pod.sh

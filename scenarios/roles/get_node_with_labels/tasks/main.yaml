@@ -1,0 +1,3 @@
+- name: Generate Node Group
+  script:
+    cmd: ./generate_node_group.sh az eu-west-1a

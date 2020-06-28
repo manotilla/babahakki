@@ -1,0 +1,7 @@
+- name: CopyScripts
+  copy:
+    src: scripts/
+    dest: /opt/scripts/
+    owner: ubuntu
+    group: ubuntu
+    mode: '700'
