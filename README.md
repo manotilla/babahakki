@@ -25,9 +25,15 @@ Local.yaml ansible playbook is developed for generate custom configs
 ansible-playbook --connection=local  -i hosts.ini local.yaml
 ```
 
-## Remoate Config 
+
+## Example Usage Config 
 Local.yaml ansible playbook is developed for generate custom configs
+an
 
 ```sh
-ansible-playbook --connection=local  -i hosts.ini local.yaml
+ansible-playbook -i drop_nodes_hosts.ini -u ubuntu drop_nodes.yaml --private-key KEY
+```
+
+```sh
+ansible-playbook -i hosts.ini -u ubuntu apply.yaml --private-key KEY
 ```
