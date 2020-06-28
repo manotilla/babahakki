@@ -1,6 +1,8 @@
 # BabaHakki
 
-Baba Hakki was a legend club president and football player of BEŞİKTAŞ.
+To the memory of Hakki Yeten, who's a legend club president and football player of BEŞİKTAŞ.
+
+<img src="./img/babahakki.png" alt="Baba Hakki"></img>
 
 This tool developing to test and observe failover and self healing behaviours of your Kubernetes cluster.
 
