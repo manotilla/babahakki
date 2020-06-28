@@ -1,0 +1,3 @@
+- name: Drop ApiServer Static Pod
+  script:
+    cmd: ./scripts/drop_apiserver_static_pod.sh

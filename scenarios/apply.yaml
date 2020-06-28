@@ -1,0 +1,11 @@
+---
+
+- hosts: masters
+  become: true
+
+  vars_files:
+    - "roles/environments/variables.yaml"
+
+  roles:
+    - cpyscripts
+    - etcd

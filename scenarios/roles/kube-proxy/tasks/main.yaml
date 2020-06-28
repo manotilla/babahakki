@@ -1,0 +1,3 @@
+- name: Decrease Conntrack Hashtable
+  script:
+    cmd: ./scripts/descrease_conntrack_table_size.sh az=eu-west-1a

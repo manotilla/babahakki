@@ -1,0 +1,8 @@
+---
+
+- hosts: drop_nodes
+  vars_files:
+    - "roles/environments/variables.yaml"
+  roles:
+    - cpyscripts
+    - drop_workload
